@@ -15,7 +15,7 @@ function increaseRankBy(n) {
   var x = document.querySelectorAll('.ranked-list')
   var i = 0;
   for (i = 0; i < x.length; i++) {
-    x[i] = x[n];
+    x[i] = x[i + n];
   }
   return x;
 
