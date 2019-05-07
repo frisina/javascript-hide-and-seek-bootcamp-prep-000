@@ -15,7 +15,7 @@ function increaseRankBy(n) {
   var i = 0;
   for (i = 0; i < x.length; i++) {
     x = parseInt(x);
-    x[i+n];
+    x[i] = x[n];
   }
   return x;
 
