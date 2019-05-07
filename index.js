@@ -9,3 +9,19 @@ function nestedTarget() {
   return x;
 
 }
+
+function increaseRankBy() {
+  var x = document.querySelectorAll('.ranked-list')
+  var i = 0;
+  for (i = 0; i < x.length; i++) {
+    x = parseInt(x);
+    x[i+1];
+  }
+  return x;
+
+
+}
+
+function deepestChild() {
+
+}
